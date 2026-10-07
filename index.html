@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Locais e Eventos — São Paulo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+    <header class="cabecalho">
+        <div class="identidade">
+            <h1>Guia de Locais</h1>
+            <p>São Paulo</p>
+        </div>
+
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" class="ativo">Início</a></li>
+                <li><a href="#locais">Locais</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="lateral">
+        <nav aria-label="Navegação por categorias">
+            <h2>Explorar</h2>
+            <ul>
+                <li><a href="#locais">Locais</a></li>
+                <li><a href="#estaduais">Estádios</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main id="conteudo-principal">
+        <section class="hero">
+            <h2>Descubra sua cidade</h2>
+            <p>Locais, eventos e programação cultural em um só lugar.</p>
+        </section>
+
+        <section class="cards" id="locais">
+            <h2 class="cards-titulo" id="estaduais">Estádios</h2>
+
+            <!-- Este é o card que já possui página própria. -->
+            <a class="card-link" href="detalhe.html">
+                <article class="card">
+                    <img src="img/estadio-corinthians.svg"
+                         alt="Ilustração da Neo Química Arena">
+                    <div class="card-conteudo">
+                        <h2>Neo Química Arena</h2>
+                        <p>Estádio do Sport Club Corinthians Paulista, localizado em Itaquera, na zona leste de São Paulo.</p>
+                        <span class="card-acao">Ver página do local →</span>
+                    </div>
+                </article>
+            </a>
+
+            <a class="card-link" href="#locais">
+                <article class="card">
+                    <div class="card-conteudo">
+                        <h2>Outros estádios</h2>
+                        <p>Espaços esportivos para conhecer na cidade e na região metropolitana.</p>
+                    </div>
+                </article>
+            </a>
+
+            <h2 class="cards-titulo" id="cultura">Cultura e lazer</h2>
+
+            <a class="card-link" href="#locais">
+                <article class="card">
+                    <div class="card-conteudo">
+                        <h2>Museus</h2>
+                        <p>Acervos, exposições e atividades culturais para diferentes públicos.</p>
+                    </div>
+                </article>
+            </a>
+
+            <a class="card-link" href="#locais">
+                <article class="card">
+                    <div class="card-conteudo">
+                        <h2>Parques</h2>
+                        <p>Áreas verdes, espaços de caminhada, lazer e convivência.</p>
+                    </div>
+                </article>
+            </a>
+
+            <a class="card-link" href="#locais">
+                <article class="card">
+                    <div class="card-conteudo">
+                        <h2>Teatros</h2>
+                        <p>Programação de teatro, música, dança e outras apresentações.</p>
+                    </div>
+                </article>
+            </a>
+        </section>
+
+        <section class="secao" id="eventos">
+            <h2>Próximos eventos</h2>
+            <article>
+                <h3>Eventos esportivos e culturais</h3>
+                <p>Consulte a programação dos locais antes de planejar sua visita.</p>
+            </article>
+        </section>
+
+        <section class="secao" id="contato">
+            <h2>Contato</h2>
+            <p>Use este espaço para sugerir um local ou informar uma correção no guia.</p>
+            <ul class="links">
+                <li><a href="mailto:contato@guiadelocais.com">Sugerir correção</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Guia de Locais e Eventos — projeto de exercício em aula</p>
+        <p>São Paulo, SP — 2026</p>
+    </footer>
+
+</body>
+</html>
